@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
     <title>Diseñador Freelancer</title>
 </head>
 <body>
     <header>
-        <h1>Jorge Mejicanos Freelancer</h1>
+        <h1 class="titulo">Jorge Mejicanos <span>Freelancer</span></h1>
     </header>
 
     <nav>
@@ -85,8 +87,37 @@
                 quod corporis veritatis, esse consequatur mollitia!</p>
         </section>
 
-        <footer>
+        <section>
             <h2>Contacto</h2>
+            <form>
+                <fieldset>
+                    <legend>Contactanos llenando todos los campos</legend>
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    
+                    <div>
+                        <label>Telefono</label>
+                        <input type="tel" placeholder="Telefono">
+                    </div>
+                    
+                    <div>
+                        <label>Correo</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    
+                    <div>
+                        <label>Mensaje</label>
+                        <textarea></textarea>
+                        <input type="submit" value="Enviar">
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+
+        <footer>
             <p>Todos los derechos reservados, Jorge Luis Mejicanos</p>
         </footer>
     </main>
