@@ -11,11 +11,12 @@ html {
 }
 body{
     font-size: 16px; /*1 rem = 10 px*/
+    font-family: 'Krub', sans-serif;
 }
 .titulo {
     text-align: center;
     font-size: 3.8rem; 
-    color: var(--primario);
+    font-weight: 600;
 }
 .titulo span{
     font-size: 2rem;
